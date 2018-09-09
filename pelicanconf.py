@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'choutos'
 SITENAME = 'choutos'
 THEME = '../../pelican-themes/Flex'
-SITEURL = ''
+SITEURL = 'choutos.github.io'
 
 PATH = 'content'
 
