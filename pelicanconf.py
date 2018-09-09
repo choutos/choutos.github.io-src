@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'choutos'
 SITENAME = 'choutos'
+THEME = '../../pelican-themes/Flex'
 SITEURL = ''
 
 PATH = 'content'
