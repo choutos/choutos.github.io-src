@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = 'choutos'
 SITENAME = 'choutos'
 THEME = '../../pelican-themes/Flex'
+SITELOGO='/images/profile.png'
+FAVICON='/images/favicon.ico'
 SITEURL = 'choutos.github.io'
 
 PATH = 'content'
