@@ -5,7 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = 'choutos'
 SITENAME = 'choutos'
 THEME = 'Flex'
-SITEURL = 'choutos.github.io'
+SITEURL = 'https://choutos.github.io'
+SITESUBTITLE='STEAM: Science, Technology, Engineering, ADVENTURE and MOTORCYCLES'
 
 PATH = 'content'
 
@@ -21,16 +22,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Wanderclan', 'http://wanderclan.com/'),
+         ('Rally Albania', 'http://www.rallyalbania.com'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/choutos'),
+          ('facebook', 'https://www.facebook.com/Choutos-174167099957564/'),
+          ('instagram', 'https://www.instagram.com/choutos/'),)
 
 DEFAULT_PAGINATION = 10
+STATIC_PATHS = ['images']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
